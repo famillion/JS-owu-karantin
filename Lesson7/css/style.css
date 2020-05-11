@@ -1,0 +1,175 @@
+html {
+    margin: 20px;
+}
+
+#text {
+    max-width: 400px;
+    padding: 10px;
+    background-color: aqua;
+}
+
+.btn {
+    margin-bottom: 20px;
+}
+
+#output {
+    padding: 10px;
+    background-color: cyan;
+    display: none;
+}
+
+.menu .title_menu {
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #0f629c;
+}
+
+.menu .title_menu::before {
+    content: '▶ ';
+    font-size: 80%;
+    color: green;
+}
+
+.menu_open .title_menu::before {
+    content: '▼ ';
+}
+
+.menu_list {
+    display: none;
+}
+
+input, button {
+    margin: 5px;
+}
+
+.comment-item {
+    display: inline-block;
+    vertical-align: top;
+    background-color: cyan;
+    max-width: 300px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.wrapper-carousel{
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-carousel .carousel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    width: 600px;
+    height: 300px;
+}
+
+.wrapper-carousel .carousel .carousel-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper-carousel .carousel .carousel-list li{
+    margin: 0 5px;
+}
+
+.wrapper-carousel .carousel .carousel-list li .carousel-img{
+    height: 300px;
+}
+
+.matuki .word, .matuki .text{
+    margin: 10px;
+}
+
+.matuki .matuki-text{
+    width: 400px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.content .wrap{
+    display: inline-block;
+    width: 70%;
+
+}
+
+.content .content-menu{
+    display: inline-block;
+    background-color: cyan;
+    width: 30%;
+    padding: 20px;
+}
+
+.checkbox-array{
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox-array .wrap-check-inputs{
+    width: 20%;
+    padding: 10px 20px;
+}
+
+
+
+.checkbox-array .wrap-check-inputs .check-array-input{
+    display: block;
+    margin: 10px;
+}
+
+.checkbox-array .check-result{
+    display: flex;
+    width: 80%;
+    padding: 0 20px;
+}
+
+.checkbox-array .check-result span{
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.checkbox-array .check-result .status-div{
+    width: 250px;
+    margin-left: 10px;
+    padding: 0 10px;
+    background-color: cyan;
+}
+
+.check-array-text{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#check-array-btn{
+    width: 100px;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#check-array-btn:hover{
+    color: #cd0a0a;
+}
+
+
+
+
+
+
